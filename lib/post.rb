@@ -5,4 +5,8 @@ class Post
   def initialize
     @title = title
   end
+
+  def author
+    @author = Author.new
+  end
 end
